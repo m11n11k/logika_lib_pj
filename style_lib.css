@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+}
+.img_socials{
+    width: 50px;
+    height: 50px;
+}
+.phone_num{
+    float: left;
+    color: white;
+
+}
+.phone_icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.first_social_pic{
+    margin-left: 1190px;
+    width: 50px;
+    height: 50px;
+}
