@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abadка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_new.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <div>
+        <img class="phone_icon" src="https://cdn.prod.website-files.com/64fc48f31a4d9631cd0b7df0/675574b62eca5a31b7c2a128_phone.png">
+        <p class="phone_num">+38083749022</p>
+    </div>
+    <div class="socials_pics">
+        <a href="https://www.instagram.com/"><img class="first_social_pic" src="https://img.icons8.com/m_outlined/512/FFFFFF/instagram-new.png"></a>
+        <a href="https://www.facebook.com/login/"><img class="img_socials"src="img/facebook.png" ></a>
+        <a href="https://x.com/"><img class="img_socials" src="img/x.png" > </a>  
+    </div>
+</header>
+<main>
+    <div class="header">
+        <img class="korz" src="img/basket.png"></p>
+        <img class="logo" src="img/abadka_logo.jpg" alt="logo">
+    </div>
+</main>
+
+
+    <nav class="links">
+        
+            <a class = "link" href="lib_prj.html"><h2>Головна</h2></a>
+            <a class = "link"href="about_us.html"><h2>Про нас</h2></a>
+            <a class = "link"href="lib_new.html"><h2>Нові книги</h2></a>
+        
+    </nav>
+    <main>
+        <h1 class="text_center">Нові книги</h1>
+        
+        <div class="filters">
+            <label class="text_center">Фільтр ціни: <span id="priceValue">100</span>$</label>
+            <input type="range" id="priceFilter" min="10" max="100" step="5" value="100">
+        </div>
+
+        <div class="products">
+            <div class="product" data-price="45">
+                <img class="book_pic" src="img/metro2033.jpg" alt="Metro 2033">
+                <h3>Metro 2033</h3>
+                <p>$45.00</p>
+                <button class="buy-btn">Купити</button>
+            </div>
+            <div class="product" data-price="45">
+                <img class="book_pic" src="img/metro2034.jpg" alt="Metro 2034">
+                <h3>Metro 2034</h3>
+                <p>$45.00</p>
+                <button class="buy-btn">Купити</button>
+            </div>
+            <div class="product" data-price="45">
+                <img class="book_pic" src="img/metro2035.jpg" alt="Metro 2035">
+                <h3>Metro 2035</h3>
+                <p>$45.00</p>
+                <button class="buy-btn">Купити</button>
+            </div>
+            <div class="product" data-price="40">
+                <img class="book_pic" src="img/rickmorty.jpg" alt="Rick and Morty">
+                <h3>Rick and Morty</h3>
+                <p>$40.00</p>
+                <button class="buy-btn">Купити</button>
+            </div>
+        </div>
+
+        <div class="cart">
+            <h2>🛒 Кошик</h2>
+            <ul id="cart-list"></ul>
+            <p>Загальна сума: <span id="total-price">0</span>$</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p class="f_text">© 2024 Аbadка. Всі права захищено.</p>
+            <a class="f_link" href="priv_policy.html">Політика конфіденційності</br></a>
+            <a class="f_link" href="terms_of_use.html">Умови використання</a>
+
+        </div>
+    </footer>
+
+</body>
+</html>

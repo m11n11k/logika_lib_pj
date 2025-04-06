@@ -1,0 +1,90 @@
+header{
+    background-color: black;
+}
+.img_socials{
+    width: 50px;
+    height: 50px;
+    
+}
+.phone_num{
+    float: left;
+    color: white;
+
+}
+.phone_icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.first_social_pic{
+    margin-left: 1185px;
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 125px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+footer{
+    text-align: center;
+    background-color: #ff6600;
+}
+.f_text{
+    color: white;
+}
+.f_link{
+    color: white;
+    text-decoration: none;
+}
+.img_socials:hover{
+    transition: transform 0.2s linear;
+    transform: scale(1.2);
+    padding: 5px;
+}
+.first_social_pic:hover{
+    transition: transform 0.2s linear;
+    transform: scale(1.2);
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 15%;
+    padding: 0px 20px 0px 20px;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    text-align: center;
+}
+.p_margin{
+    margin-bottom: 50px;
+}
+.link:hover{
+    transition: background-color 0.2s linear;
+    background-color:#cc5500;
+}
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+span{
+    color: #cc5500;
+}
+.f_link:hover{
+    transition: color 0.1s linear; 
+    color: black;
+}
